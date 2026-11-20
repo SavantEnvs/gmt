@@ -1,0 +1,9 @@
+project: savantenvs/gmt
+target: pssac
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/pssac/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/bin/fuzz_pssac
+    libfuzzer: true
+    timeout: 10

@@ -1,0 +1,38 @@
+@F008  0.0   90.0    0.0    0.0  000 !RHS-000 Reunion Hotspot Motion-000
+008  5.0   59.5134 -126.1918   -1.1696  000 !Inserted pole to improve accuracy after removing fixed plate 1 @absage
+008 10.0   59.3488 -125.8218   -2.3392  000 !RHS-000 @REF O'Neill_++_2005, @DOI"10.1029/2004GC000784" @Au JMW, @absage
+008 15.0   60.8007 -132.5344   -2.9241  000 !Inserted pole to improve accuracy after removing fixed plate 1 @absage
+008 20.0   61.5434 -137.3176   -3.5167  000 !RHS-000 @REF O'Neill_++_2005, @DOI"10.1029/2004GC000784" @Au JMW, @absage
+008 25.0   62.5878 -132.9993   -4.2071  000 !Inserted pole to improve accuracy after removing fixed plate 1 @absage
+008 30.0   63.2351 -129.7147   -4.902  000 !RHS-000 @REF O'Neill_++_2005, @DOI"10.1029/2004GC000784" @Au JMW, @absage
+008 35.0   61.101 -123.0301   -5.0826  000 !Inserted pole to improve accuracy after removing fixed plate 1 @absage
+008 40.0   58.8643 -117.6316   -5.2836  000 !RHS-000 @REF O'Neill_++_2005, @DOI"10.1029/2004GC000784" @Au JMW, @absage
+008 45.0   57.5898 -105.9976   -5.8179  000 !Inserted pole to improve accuracy after removing fixed plate 1 @absage
+008 50.0   55.7962  -97.2159   -6.41  000 !RHS-000 @REF O'Neill_++_2005, @DOI"10.1029/2004GC000784" @Au JMW, @absage
+008 55.0   48.1177  -98.0425   -6.8918  000 !Inserted pole to improve accuracy after removing fixed plate 1 @absage
+008 60.0   41.5472  -98.5704   -7.4822  000 !RHS-000 @REF O'Neill_++_2005, @DOI"10.1029/2004GC000784" @Au JMW, @absage
+008 65.0   40.5318 -103.3348   -7.3591  000 !Inserted pole to improve accuracy after removing fixed plate 1 @absage
+008 70.0   39.2867 -108.0771   -7.2685  000 !Removed fixed plate 1 @absage
+008 75.0   37.8144 -104.9032   -8.1365  000 !Inserted pole to improve accuracy after removing fixed plate 1  @absage
+008 80.0   36.5755 -102.4437   -9.0216  000 !Removed fixed plate 1 @absage
+008 85.0   35.6669  -95.2083  -10.0382  000 !Inserted pole to improve accuracy after removing fixed plate 1 @absage
+008 90.0   34.6603  -89.4695  -11.1399  000 !Removed fixed plate 1 @absage
+008 95.0   34.8416  -87.4529  -11.2238  000 !Inserted pole to improve accuracy after removing fixed plate 1 @absage
+008 100.0   34.9901  -85.4608  -11.3173  000 !Removed fixed plate 1 @absage
+008 105.0   33.7039  -84.2849  -12.4014  000 !Inserted pole to improve accuracy after removing fixed plate 1 @absage
+008 110.0   32.619  -83.3271  -13.4937  000 !Removed fixed plate 1 @absage
+008 115.0   31.3194  -84.7514  -14.548  000 !Inserted pole to improve accuracy after removing fixed plate 1 @absage
+008 120.0   30.1846  -85.9522  -15.6143  000 !Removed fixed plate 1 @absage
+008 125.0   29.5449  -87.3195  -16.0554  000 !Inserted pole to improve accuracy after removing fixed plate 1 @absage
+008 130.0   28.9246  -88.5946  -16.505  000 !Removed fixed plate 1 @absage
+008 135.0   30.8974  -90.7469  -16.8182  000 !Inserted pole to improve accuracy after removing fixed plate 1 @absage
+008 140.0   32.7624  -92.9001  -17.1664  000 !Removed fixed plate 1 @absage
+008 145.0   35.2324  -92.2112  -17.3535  000 !Inserted pole to improve accuracy after removing fixed plate 1 @absage
+008 150.0   37.6403  -91.4931  -17.5736  000 !Removed fixed plate 1 @absage
+008 160.0   35.9721  -90.4003  -18.5172  000 !Removed fixed plate 1 @absage
+008 165.0   35.3642  -92.0432  -18.7023  000 !Inserted pole to improve accuracy after removing fixed plate 1 @absage
+008 170.0   34.7458  -93.6282  -18.8991  000 !Removed fixed plate 1 @absage
+008 175.0   31.8793  -91.7705  -21.0278  000 !Inserted pole to improve accuracy after removing fixed plate 1 @absage
+008 180.0   29.5241  -90.3331  -23.2108  000 !Removed fixed plate 1 @absage
+008 185.0   28.4913  -89.3181  -23.7825  000 !Inserted pole to improve accuracy after removing fixed plate 1 @absage
+008 190.0   27.5009  -88.3668  -24.3664  000 !Removed fixed plate 1 @absage

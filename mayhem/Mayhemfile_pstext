@@ -1,0 +1,9 @@
+project: savantenvs/gmt
+target: pstext
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/pstext/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/bin/fuzz_pstext
+    libfuzzer: true
+    timeout: 10

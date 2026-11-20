@@ -1,0 +1,5 @@
+> 5 5 12p 0 CM 13p 3i j
+@_This@_ is a paragraph of @;red;text@;; that wraps.
+
+> 2 8 10p 45 LT 12p 2i l
+More text here.

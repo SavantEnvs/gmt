@@ -1,0 +1,9 @@
+project: savantenvs/gmt
+target: gmt_strrstr
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/gmt_strrstr/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/bin/fuzz_gmt_strrstr
+    libfuzzer: true
+    timeout: 10

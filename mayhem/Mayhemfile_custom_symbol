@@ -1,0 +1,9 @@
+project: savantenvs/gmt
+target: custom_symbol
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/custom_symbol/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/bin/fuzz_custom_symbol
+    libfuzzer: true
+    timeout: 10

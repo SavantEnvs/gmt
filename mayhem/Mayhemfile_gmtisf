@@ -1,0 +1,9 @@
+project: savantenvs/gmt
+target: gmtisf
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/gmtisf/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/bin/fuzz_gmtisf
+    libfuzzer: true
+    timeout: 10

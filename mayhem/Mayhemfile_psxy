@@ -1,0 +1,9 @@
+project: savantenvs/gmt
+target: psxy
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/psxy/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/bin/fuzz_psxy
+    libfuzzer: true
+    timeout: 10

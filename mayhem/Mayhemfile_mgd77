@@ -1,0 +1,9 @@
+project: savantenvs/gmt
+target: mgd77
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/mgd77/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/bin/fuzz_mgd77
+    libfuzzer: true
+    timeout: 10

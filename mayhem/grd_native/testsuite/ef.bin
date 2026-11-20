@@ -1,0 +1,10 @@
+ncols 4
+nrows 4
+xllcenter 0
+yllcenter 0
+cellsize 1
+nodata_value -9999
+0	3	6	9
+0	2	4	6
+0	1	2	3
+0	0	0	0

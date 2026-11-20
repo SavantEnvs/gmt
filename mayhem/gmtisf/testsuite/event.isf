@@ -1,0 +1,11 @@
+DATA_TYPE BULLETIN IMS1.0:short
+ISC Bulletin
+Event   600000001 Near coast of Peru
+   Date       Time        Err   RMS Latitude Longitude  Smaj  Smin  Az Depth   Err Ndef Nsta Gap  mdist  Mdist Qual   Author      OrigID
+2003/01/01 00:23:41.86   0.51  0.98 -10.4800  -78.3700   9.6   7.6  69  51.0   3.8   26   25 147   4.23  82.20 m i ke ISC       00001234
+
+Magnitude  Err Nsta Author      OrigID
+mb     4.4 0.1   12 ISC       00001234
+Ms     4.0 0.2    5 ISC       00001234
+
+STOP

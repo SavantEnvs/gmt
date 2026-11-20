@@ -1,0 +1,10 @@
+# @VGMT1.0 @GPOINT
+# @NID|name
+# @Tinteger|string
+# FEATURE_DATA
+> 
+# @D1|"alpha"
+10 20
+> 
+# @D2|"beta"
+30 40

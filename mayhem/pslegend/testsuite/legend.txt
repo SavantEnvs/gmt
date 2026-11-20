@@ -1,0 +1,16 @@
+G -0.1i
+H 24p,Times-Roman My Map Legend
+D 0.2i 1p
+N 2
+V 0 1p
+S 0.1i c 0.15i p300/12 0.25p 0.3i This circle is hachured
+S 0.1i e 0.15i yellow 0.25p 0.3i This ellipse is yellow
+S 0.1i - 0.15i - 1p 0.3i A line
+V 0 1p
+D 0.2i 1p
+N 1
+G 0.05i
+L 9p,Times-Roman R Smith et al., @%5%J. Geophys. Res., 99@%%, 2000
+G 0.1i
+T Let us just try some simple text that can go on a few lines.
+B 0.1 0.2i 0.2i

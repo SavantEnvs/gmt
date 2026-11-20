@@ -1,0 +1,9 @@
+project: savantenvs/gmt
+target: grdinfo_netcdf
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/grdinfo_netcdf/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/bin/fuzz_grdinfo_netcdf
+    libfuzzer: true
+    timeout: 10

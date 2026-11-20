@@ -1,0 +1,9 @@
+project: savantenvs/gmt
+target: mapproject_opts
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/mapproject_opts/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/bin/fuzz_mapproject_opts
+    libfuzzer: true
+    timeout: 10

@@ -1,0 +1,9 @@
+project: savantenvs/gmt
+target: gshhg
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/gshhg/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/bin/fuzz_gshhg
+    libfuzzer: true
+    timeout: 10

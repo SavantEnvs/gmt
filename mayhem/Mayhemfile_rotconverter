@@ -1,0 +1,9 @@
+project: savantenvs/gmt
+target: rotconverter
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/rotconverter/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/bin/fuzz_rotconverter
+    libfuzzer: true
+    timeout: 10

@@ -1,0 +1,6 @@
+# COLOR_MODEL = RGB
+0 gray25 0.5 gray25 L
+0.5 gray75 1 gray75 B
+B black
+F white
+N 128

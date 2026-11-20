@@ -1,0 +1,9 @@
+project: savantenvs/gmt
+target: kml2gmt
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/kml2gmt/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/bin/fuzz_kml2gmt
+    libfuzzer: true
+    timeout: 10
